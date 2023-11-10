@@ -1,7 +1,20 @@
-body{
-    background-color: aqua;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
 }
 
-h1{
-    color: red;
+/* Keep footer at the bottom */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-color: var(--defColor);
+  margin-bottom: 0;
+  margin-top: auto;
+  padding: 5px;
+  color: navy;
 }
